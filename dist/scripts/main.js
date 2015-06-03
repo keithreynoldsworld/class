@@ -47,6 +47,7 @@ $(document).on('ready', function(){
     	//$('#search').html("<span>Results(LOADING)</span>");
 	}
 
+ 	
 });	
 
  
