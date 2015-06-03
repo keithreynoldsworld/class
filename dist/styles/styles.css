@@ -1,0 +1,60 @@
+body {
+
+	color: white;
+	background: black;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 18px;
+	margin: 50px;
+	
+}
+
+span {
+	color: red;
+	font-size: 25px;
+}
+
+input
+
+{background: purple;
+ color: white;
+ font-size: 45px;
+ font-family: "Comic Sans MS", cursive, sans-serif;
+ cursor: crosshair;
+
+}
+
+form {color:red;font-size: 45px;
+margin-left: auto;
+	margin-right: auto;
+
+
+}
+.big{width: 49%;
+	display: inline-block;
+	float: left;}
+.myButton {
+	-moz-box-shadow: -8px -9px 50px 49px #3dc21b;
+	-webkit-box-shadow: -8px -9px 50px 49px #3dc21b;
+	box-shadow: -8px -9px 50px 49px #3dc21b;
+	background-color:#44c767;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:12px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Georgia;
+	font-size:28px;
+	font-weight:bold;
+	padding:32px 76px;
+	text-decoration:none;
+	text-shadow:6px 10px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

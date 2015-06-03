@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css"/>
+</head>
+<body>
+
+<!-- <nav>
+	
+<a href="#home">Home</a>
+<a href="#search">Search</a>
+</nav> -->
+
+<main>
+	<section class="page" id="home">
+		<form>
+		<input id = "input-box" type = "text" length = "100%" value="type here">
+		<button class="myButton">search 4 movies!!</button><br/>
+		</form>
+	</section>
+	<section class="page" id="search">
+		<div class="results big"><span>results(click to add to watchlist)<br/></span></div><br/><br/>
+		<div class="watchlist big"><span>watchlist(click to send to bottom)</span><br/></div>
+	</section>
+</main>
+<script type="text/template" id="movie-row">
+	<div class="movie-row">	
+		<div> * <%= Title %> * </div>
+		
+	</div>
+</script>
+<script type="text/javascript" src = "../bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src = "../bower_components/underscore/underscore-min.js"></script>
+<script type="text/javascript" src = "../bower_components/backbone/backbone-min.js"></script>
+<script type="text/javascript" src = "scripts/main.js"></script>
+</body>
+</html>
